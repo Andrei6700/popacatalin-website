@@ -3,7 +3,6 @@ node_modules/
 
 # Ignore any compiled or minified files
 *.min.js
-*.min.css
 
 # Ignore any log or cache files
 logs/
