@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Galerie foto</title>
+</head>
+
+    <body>
+        <header>
+        <a href="pagina_principala.html"><img src="1 (1).png" height="80" width="100" class="logo"></a>
+            <ul>
+
+                <li><a href="/despre_mine.html">Despre mine</a></li>
+                <li><a href="/preturi.html">Preturi</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+
+
+            </ul>
+        </header>
+
+        <section class="banner">  </section>
+
+        <script type="text/javascript">
+            window.addEventListener("scroll", function() {
+              const header = document.querySelector("header");
+              header.classList.toggle("sticky", window.scrollY > 0);
+            })
+          </script>
+          
+        
+
+    </body>
+
+</html>
